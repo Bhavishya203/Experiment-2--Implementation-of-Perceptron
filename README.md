@@ -1,5 +1,5 @@
 # Experiment-2--Implementation-of-Perceptron
-##AIM:
+##AIM:To implement a perceptron for classification using Python
 
 To implement a perceptron for classification using Python
 
@@ -24,22 +24,37 @@ Indeed if the neuron output is exactly zero it cannot be assumed that the sample
 
 
 ALGORITHM:
+Step 1:
 Importing the libraries
+
+Step 2:
 Importing the dataset
+
+Step 3:
 Plot the data to verify the linear separable dataset and consider only two classes
+
+Step 4:
 Convert the data set to scale the data to uniform range by using Feature scaling
 
+Step 5:
 Split the dataset for training and testing
-Define the input vector ‘X’ from the training dataset
-Define the desired output vector ‘Y’ scaled to +1 or -1 for two classes C1 and C2
-Assign Initial Weight vector ‘W’ as 0 as the dimension of ‘X’
-Assign the learning rate
-For ‘N ‘ iterations ,do the following:
-        v(i) = w(i)*x(i)
-         
-        W (i+i)= W(i) + learning_rate*(y(i)-t(i))*x(i)
-Plot the error for each iteration 
-Print the accuracy
 
+Step 6:
+Define the input vector ‘X’ from the training dataset
+
+Step 7:
+Define the desired output vector ‘Y’ scaled to +1 or -1 for two classes C1 and C2
+
+Step 8:
+Assign Initial Weight vector ‘W’ as 0 as the dimension of ‘X’
+
+Step 9:
+Assign the learning rate For ‘N ‘ iterations ,do the following: v(i) = w(i)x(i) W (i+i)= W(i) + learning_rate(y(i)-t(i))*x(i)
+
+Step 10:
+Plot the error for each iteration
+
+Step 11:
+Print the accuracy
 
  PROGRAM:
