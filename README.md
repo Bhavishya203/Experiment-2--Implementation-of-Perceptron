@@ -1,6 +1,5 @@
 # Experiment-2--Implementation-of-Perceptron
-##AIM:To implement a perceptron for classification using Python
-
+##AIM:
 To implement a perceptron for classification using Python
 
 EQUIPMENTS REQUIRED:
